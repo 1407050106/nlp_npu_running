@@ -2,7 +2,7 @@ import numpy as np
 from scipy.spatial.distance import cosine
 import sys
 
-def load_txt(file_path, last_n=64):
+def load_txt(file_path, last_n=2048):
     """加载txt文件并返回最后last_n个元素"""
     try:
         # 加载数据
@@ -17,7 +17,7 @@ def load_txt(file_path, last_n=64):
         print(f"Error loading file {file_path}: {e}")
         sys.exit(1)
 
-def compare_files(file1, file2, last_n=64):
+def compare_files(file1, file2, last_n=2048):
     """比较两个文件中最后last_n个数据的余弦相似度"""
     # 加载数据
     data1 = load_txt(file1, last_n)
@@ -41,4 +41,4 @@ if __name__ == "__main__":
     
     file1 = sys.argv[1]
     file2 = sys.argv[2]
-    compare_files(file1, file2, last_n=64)
+    compare_files(file1, file2, last_n=2048)
