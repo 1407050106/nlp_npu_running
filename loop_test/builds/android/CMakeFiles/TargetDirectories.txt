@@ -1,0 +1,3 @@
+/Users/wangyonglin/w_producer/loop_test/builds/android/CMakeFiles/lsTM_LOOP.dir
+/Users/wangyonglin/w_producer/loop_test/builds/android/CMakeFiles/edit_cache.dir
+/Users/wangyonglin/w_producer/loop_test/builds/android/CMakeFiles/rebuild_cache.dir
